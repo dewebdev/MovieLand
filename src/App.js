@@ -4,7 +4,7 @@ import searchIcon from "./icons/search.svg";
 import MovieCard from "./MovieCard";
 
 const API__KEY = process.env.REACT_APP_MOVIELAND_KEY;
-const API__URL = "http://www.omdbapi.com/?apikey=" + API__KEY;
+const API__URL = "https://www.omdbapi.com/?apikey=" + API__KEY;
 
 const App = () => {
   const [movies, setMovies] = useState([]);
