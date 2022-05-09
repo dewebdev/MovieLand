@@ -3,7 +3,7 @@ import "./App.css";
 import searchIcon from "./icons/search.svg";
 import MovieCard from "./MovieCard";
 
-const API__KEY = process.env.REACT_APP_MY_MOVIELAND_API_KEY;
+const API__KEY = process.env.REACT_APP_MOVIELAND_KEY;
 const API__URL = "http://www.omdbapi.com/?apikey=" + API__KEY;
 
 const App = () => {
