@@ -13,7 +13,7 @@ function MovieCard(props) {
           src={
             props.movie.Poster !== "N/A"
               ? props.movie.Poster
-              : "https://via.placeholder.com/400"
+              : "https://via.placeholder.com/400x400.png?text=Poster+Not+Available"
           }
           alt={props.movie.Title}
         />
